@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100vh;
+  min-width: 100vw;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  overflow-x: hidden;
+  background-color: #474747;
+}
+
+sup {
+  line-height: 0;
+  font-weight: 0;
+  font-size: 8px;
+}
+
+$toggleBtn: #ffffff;
+$toggleBtnTextColor: #252525;
+$textColor: #ffffff;
+
+#container {
+  min-height: 100vh;
+  height: 100%;
+  width: 1080px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggleBtn {
+  position: absolute;
+  top: 3px;
+  left: -20px;
+  padding: 0 2px;
+  line-height: 12px;
+  border-radius: 2px;
+  border: none;
+  font-weight: 0;
+  color: $toggleBtnTextColor;
+  background-color: $toggleBtn;
+  cursor: pointer;
+
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+.demo-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1051px;
+  background-color: #252525;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+table {
+  color: $textColor;
+  font-family: "Poppins", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.header {
+  padding: 8px 0;
+  padding-left: 10px;
+  padding-right: 17px;
+  width: 98%;
+  background-color: #383838;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  color: $textColor;
+  font-family: "Poppins", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 12px;
+}
+.pre-apprentise {
+  margin-top: 15px;
+  padding-left: 10px;
+  width: 94%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  color: $textColor;
+  font-family: "Poppins", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 12px;
+}
+
+.pre-apprentise tbody {
+  width: 100%;
+}
+
+.pre-apprentise tr {
+  position: relative;
+  display: flex;
+}
+
+.pre-apprentise td {
+  width: 100%;
+}
+
+.headerRight {
+  display: flex;
+  gap: 50px;
+}
+
+.table-entries-right td {
+  width: 50px;
+  text-align: center;
+}
+
+.table-entries-right {
+  display: flex;
+  gap: 50px;
+}
+
+.divider {
+  margin-top: 5px;
+  margin-bottom: 7px;
+  border-top: 1px solid #383838;
+}
+
+.input-div {
+  display: flex;
+  gap: 10px;
+}
+.inputCourseName {
+  padding: 0 10px;
+  width: 75%;
+  height: 35px;
+  background-color: #545454;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 0;
+}
+.inputCourseName::placeholder {
+  color: white;
+}
+.yesNoBtn {
+  line-height: 27px;
+  width: 35px;
+  border-radius: 2px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.boxed {
+  gap: 20px;
+}
+.boxed-entry {
+  padding: 0 29px;
+  display: flex;
+  height: 27px;
+  align-items: center;
+  justify-content: center;
+  background-color: #545454;
+  border: 1px solid black;
+  border-radius: 2px;
+  font-size: 11px;
+  cursor: pointer;
+}
+.boxed-hours {
+  padding: 0 10px !important;
+  width: 87px !important;
+}
+
+.down-arrow {
+  width: 12px;
+  filter: invert(100%);
+}
+
+#vertiLine1 {
+  position: absolute;
+  height: 155px;
+  top: 19px;
+  left: -18px;
+}
+#vertiLine2 {
+  position: absolute;
+  height: 73px;
+  top: 19px;
+  left: -18px;
+}
+
+.isOpen {
+  margin-bottom: 15px;
+}
+.customLink {
+  margin-top: 5px;
+  color: #4371a6;
+  font-weight: 600;
+  border-bottom: 1px solid #4371a6;
+  cursor: pointer;
+}
+
+.tableHeader {
+  font-weight: 600;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
