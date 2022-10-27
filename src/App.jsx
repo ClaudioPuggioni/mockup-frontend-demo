@@ -152,19 +152,7 @@ export default function App() {
               </div>
             </tr>
             <tr style={{ display: isOpen2 ? "" : "none" }}>
-              <td className={isOpen2 ? "isOpen customLink" : "customLink"}>+ Add more</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <div className={isOpen2 ? "isOpen customLink" : "customLink"}>+ Add more</div>
             </tr>
           </tbody>
         </table>
